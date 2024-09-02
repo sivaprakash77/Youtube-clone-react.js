@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Content{
+  margin-left: 100px; 
+  padding: 20px;
+}
+.col iframe {
+  width: 250px;
+  height: 120px;
+  margin: 20px 10px 0px 10px;
+}
+.col p{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.sideNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100vh; 
+  background-color: #333; 
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  justify-content:space-between;
+  margin-top: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sideNav ul {
+  margin: 0;
+  padding: 0;
+}
+.sideNav ul li{
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.sideNav a {
+  color: #fff; 
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  border-bottom: 1px solid #444; 
+}
+
+.sideNav a.active {
+  background-color: #555; 
+  color: #fff; 
+}
+
+.sideNav a:hover {
+  background-color: #555; 
+  color: #fff; 
+}
+
+.Header{
+  top: 0;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.Logo span{
+  color: red;
+  font-size: 40px;
+  z-index: 1;
+  margin-left: 30px;
+  display: inline-block;
+  margin-top: 0;
+}
+.Logo p{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: bolder;
+}
+.Search {
+  align-items: center;
+  margin-left: 80px;
+  /* margin-top: 10px; */
+  position: relative;
+  width: 300px;
+  background-color: #e0e0e0;
+  border-radius: 40px;
+}
+
+.Search input {
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif; 
+  background: none;
+  margin-left: 10px;
+}
+
+
+.Search button{
+  font-size: 18px;
+  color: black;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.Notification{
+  align-items: end;
+  text-align: right;
+  margin-right: 20px;
+  color: aliceblue;
+}
+.Notification span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.Notification span:hover{
+  color: rgb(148, 0, 0);
+}
